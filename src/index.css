@@ -67,6 +67,10 @@ header {
 .drawer h2 {
     margin: 0;
 }
+.cartEmpty {
+    text-align: center;
+    height: 40%;
+}
 .cartItem { 
     border: 1px solid #f3f3f3;
     border-radius: 20px;
@@ -106,6 +110,7 @@ header {
     transform: translateX(5px);
 }
 .items {
+    overflow: auto;
     flex: 1;
 }
 .cartItem p {
