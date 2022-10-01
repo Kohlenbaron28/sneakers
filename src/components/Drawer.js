@@ -8,10 +8,10 @@ function Drawer({onClose, onRemove, items=[]}) {
             items.length>0? <div>
                 <div className="items">
             { items.map((obj)=> (
-                <div className="cartItem d-flex align-center justify-between mb-20">
+                <div key={obj.id} className="cartItem d-flex align-center justify-between mb-20">
                 <div style={{backgroundImage: `url(${obj.imageUrl})`}} className="cartItemImg"></div>
             <div className="mr-20">
-            <p className="mb-5">{obj.title}</p>
+            <p className="mb-5">{obj.name}</p>
             <b>{obj.price} руб.</b>
             </div>  
             <img onClick={()=>onRemove(obj.id)} className='removeBtn cu-p mr-10' src="/images/btn-remove.svg" alt="remove" />
