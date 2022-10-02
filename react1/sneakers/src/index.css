@@ -32,6 +32,12 @@ header {
     padding: 0 15px;
     position: relative;
 }
+.removeBtn-s {
+    position: absolute;
+    right: 25px;
+    width: 18px;
+    height: 18px;
+}
 .search-block input {
     border: 0;
     padding: 13px;
@@ -56,9 +62,14 @@ header {
     background: #fff;
     box-shadow: -10px 4px 24px rgba(0, 0, 0, 0.1);
     padding: 30px;
+    overflow: auto;
 }
 .drawer h2 {
     margin: 0;
+}
+.cartEmpty {
+    text-align: center;
+    height: 40%;
 }
 .cartItem { 
     border: 1px solid #f3f3f3;
@@ -88,6 +99,10 @@ header {
     cursor: pointer;
     transition: background 0.2s ease-in-out;
 }
+.greenButton :disabled {
+    background: #bebebe;
+    cursor: default;
+}
 .greenButton img {
   position: relative;
   top: 1px;
@@ -99,6 +114,7 @@ header {
     transform: translateX(5px);
 }
 .items {
+    overflow: auto;
     flex: 1;
 }
 .cartItem p {
