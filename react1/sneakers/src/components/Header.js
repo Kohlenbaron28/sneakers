@@ -14,7 +14,7 @@ function Header(props) {
        <div className="d-flex align-center">
          <Link to="/" target="_blank">
       <div className="d-flex flex-row">
-      <img width={50} height={40} src="/images/logo.png" alt="img" />
+      <img width={50} height={40} src="images/logo.png" alt="img" />
         <div className="headerInfo d-flex flex-column">
             <h3 className="text-uppercase">React Sneakers</h3>
             <p className="opacity-5">Магазин лучших кроссовок</p>
@@ -34,7 +34,7 @@ function Header(props) {
         </li>
         <li>
         <Link to="/orders" target="_blank">
-        <img className="mr-10" src="/images/user.png" width={18} height={18} alt="user" />
+        <img className="mr-10" src="images/user.png" width={18} height={18} alt="user" />
         </Link>
         </li> 
       </ul>

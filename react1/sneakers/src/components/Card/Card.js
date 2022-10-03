@@ -37,7 +37,7 @@
             <rect x="114" y="217" rx="5" ry="5" width="32" height="32" />
           </ContentLoader>:  (<>
           <div className={styles.favorite} onClick={onClickFavorite}>
-{ onFavorite &&  <img src={isFavorite? "./images/liked.svg": "./images/heart.svg"} /> } 
+{ onFavorite &&  <img src={isFavorite? "images/liked.svg": "images/heart.svg"} /> } 
     </div>
 
 <img width={133} height={162} src={imageUrl} alt="snk" />
@@ -48,7 +48,7 @@
         <b>{price} руб.</b>
     </div>
   
-   {onPlus && <img className={styles.plus} onClick={onClickPlus} src={isAdded? "./images/btn-checked.svg" : "./images/btn-plus.svg"} width={30} height={30} alt="plus" />}
+   {onPlus && <img className={styles.plus} onClick={onClickPlus} src={isAdded? "images/btn-checked.svg" : "images/btn-plus.svg"} width={30} height={30} alt="plus" />}
  
 </div>
 </>)
