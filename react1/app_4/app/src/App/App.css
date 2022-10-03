@@ -1,0 +1,10 @@
+* {
+    font-family: 'Trispace';
+    color: #fff;
+    
+}
+.container {
+    margin: 0px auto;
+    background: linear-gradient(45deg, #F3CFB7, #E07B97, #995394, #8566C4);
+ 
+}
